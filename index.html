@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="description" content="Commandez vos Top Pizzas Vilepinte. 01 48 61 51 85 Pizza, sur place, emporter, livraison domicile. "/>
+
+    <title>Document</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhHRlZMgnmgEEZmOpJZpvDqWexlOT1IUc&callback=initMap"
+        async defer></script>
+    <script src="inc/js/map.js">
+    </script>
+    <script src="inc/js/node_modules/smoothscroll/smoothscroll.min.js"></script>
+    <script src="inc/js/app.js"></script>
+    <link rel="stylesheet" href="inc/css/style.css">
+    <link rel="stylesheet" href="inc/css/tablet.css">
+    <link rel="stylesheet" href="inc/css/phone.css">
+    <script type='text/javascript' src='inc/js/jquery-1.11.1.min.js'></script>
+    <script type="text/javascript" src="inc/js/jquery.particleground.js"></script>
+    <script type="text/javascript" src="inc/js/demo.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+</head>
+
+<body>
+    <section class="nav">
+        <div class="menu">
+            <ul>
+                <li>M</li>
+                <li>E</li>
+                <li>N</li>
+                <li>U</li>
+            </ul>
+        </div>
+        <div class="reds"></div>
+        <nav id="nav">
+            <ul>
+                <li class="item" data-target="pane1">Qui suis-je ?</li>
+                <li class="item" data-target="pane2">A propos </li>
+                <li class="item" data-target="pane3">Comp&eacute;tences</li>
+                <li class="item" data-target="pane4">Technique</li>
+                <li class="item" data-target="pane5">Tarif</li>
+                <li class="item" data-target="pane6">Contact</li>
+                <li class="item"><span class="us">Us | </span>Version</li>
+
+            </ul>
+        </nav>
+    </section>
+
+    <div id="wrap">
+        <section id="pane1" class="block">
+            <article class="rosa">
+                <h2 class="right titre anim">Je</h2>
+            </article>
+            <article class="text">
+                <h2 class="left titre ">
+                <span class="line anim2">suis</span>
+            </h2>
+            </article>
+        </section>
+
+        <section id="pane2" class="block">
+            <h3>About</h3>
+            <p class="centre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dignissimos.</p>
+        </section>
+        <section id="pane3" class="block">
+            <article class="block1">
+                <h2 class=" right titre position"><span>Des</span></h2>
+            </article>
+            <article class="droite">
+                <article class="pin">
+                    <h2 class="titre position">ign</h2>
+                </article>
+                <p class="zone">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur labore nulla, fuga, at ipsa sapiente mollitia repellat inventore ad asperiores maiores, sit saepe. Culpa iure, harum reiciendis architecto praesentium dolor.</p>
+                <a class="button" href="">Learn More</a>
+            </article>
+        </section>
+
+
+        <section id="pane4" class="block">
+            <article class="gauche">
+                <article class="noel">
+                    <h2 class="titre right position">
+                    Id
+                </h2>
+                </article>
+                <p>Lorem ipsum dolor sit ame a dolores voluptates assumenda error quisquam eaque, laudantium fugit repellendus iste molestiae recusandae esse similique praesentium nisi impedit ab!
+                </p>
+                <a class="button" href="">Learn More</a>
+            </article>
+
+            <article class="block2">
+                <h2 class="titre left"><span class="position">ea</span></h2>
+            </article>
+
+        </section>
+        <section id="pane5" class="block">
+            <h3> What We Do</h3>
+            <p class="centre">Lorem ipsum dolor s amet. Veniam praesentium officiis, fuga eum qui in consectetur tempora maxime nemo dolor at, iste facere fugiat eveniet, consequatur!</p>
+        </section>
+        <section id="pane6" class="block ombre">
+            <article class="phone">Phone</article>
+            <header class="pop">
+                <h3 class="position2">
+                    Contact me
+                </h3>
+            </header>
+            <P class="contact">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, neque.<a class="button" href="">Learn More</a></P>
+            <div class="form">
+                <form id="contact" method="post" action="mail.php">
+                    <input class="block_user" required type="text" id="nom" name="nom" placeholder="Votre Nom *" />
+                    <input class="block_user" required type="email" id="email" name="email" placeholder="Votre adresse mail *" />
+                    <input class="block_user" required type="tel" id="tel" name="objet" tabindex="3" placeholder="L'objet de votre message *" />
+                    <textarea class="block_user" required id="message" name="message" tabindex="4" cols="30" rows="8" placeholder="Ecrivez Votre numéro de téléphone suive de votre message içi. *"></textarea>
+                    <input type="submit" name="envoi" value="Envoyer !" class="button"/>
+                </form>
+            </div>
+            <div id="map"></div>
+        </section>
+
+        <div class="bd"></div>
+    </div>
+    <footer>
+        <div id="particles"></div>
+    </footer>
+
+
+
+</body>
+
+</html>

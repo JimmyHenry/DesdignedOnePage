@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:320px) and (max-width:459px) {
+    header {
+        width: 100%;
+        background-color: blue;
+        /*background: url(../images/texture_nav.gif) repeat-x;*/
+        height: 98px
+    }
+}

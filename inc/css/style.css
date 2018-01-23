@@ -1,0 +1,398 @@
+/* css page web */
+
+/* La police choisit */
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#wrap {
+
+    width: 1280px;
+    height: auto;
+    margin: auto;
+    padding-left: 119px;
+}
+
+section.block {
+    width: 949px;
+    height: 752px;
+    float: left;
+    margin-top: 139px;
+}
+
+section.block.ombre {
+    width: 949px;
+    height: 752px;
+    float: left;
+    margin-top: 139px;
+}
+
+section.block:nth-child(2) {
+    height: 534px;
+}
+
+section.block:nth-child(3) {
+    height: 571px;
+}
+
+section.block:nth-child(4) {
+    height: 573px;
+}
+
+section.block:nth-child(5) {
+    height: 530px;
+}
+
+section.block:nth-child(6) {
+    height: 367px;
+}
+
+article.rosa {
+    background: url(../img/beach01.jpg) 0 0 no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    width: 526px;
+    height: 752px;
+    background-size: contain;
+    float: left;
+    line-height: 752px;
+}
+
+h2.titre {
+    color: white;
+    font-size: 160pt
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+span {
+    color: black;
+}
+
+.line {
+    line-height: 752px
+}
+
+h2.right {
+    text-align: right;
+}
+
+h2.left {
+    text-align: left;
+}
+
+article.text {
+    width: 423px;
+    height: 752px;
+    float: left;
+}
+
+article.block1 {
+    width: 460px;
+    height: 571px;
+    float: left;
+    background: url(../img/bloc1.gif) 0 0 no-repeat;
+}
+
+article.droite {
+    width: 489px;
+    height: 571px;
+    box-shadow: -10px 0px 60px #cfddea;
+    float: left;
+    padding: 4px;
+}
+
+article.pin {
+    padding-top: 1px;
+    width: 481px;
+    height: 329px;
+    background: url(../img/desert01.jpg) 0 0 no-repeat;
+}
+
+p {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.button {
+    border-radius: 20px;
+    border: 1px solid crimson;
+    width: 152px;
+    height: 37px;
+    background: white;
+    display: block;
+}
+
+.item {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 37px;
+}
+
+div ul li {
+    margin-left: 15px;
+}
+
+a.button {
+    color: black;
+    background: transparent;
+    text-align: center;
+    line-height: 37px;
+}
+
+input.button{
+    color: #5cbdaa;
+    background: transparent
+
+}
+.item.button:hover, .item:hover, a.button:hover, .button:hover {
+    background: crimson;
+    color: white
+}
+
+.position {
+    position: relative;
+    top: -50px;
+}
+
+article.gauche {
+    width: 499px;
+    height: 573px;
+    float: left;
+    box-shadow: 2px 0px 60px #cfddea;
+    padding: 8px;
+}
+
+article.noel {
+    padding-top: 2px;
+    width: 482px;
+    height: 355px;
+    background: url(../img/NY01.jpg) 0 0 no-repeat;
+}
+
+article.block2 {
+    width: 450px;
+    height: 573px;
+    float: left;
+    background: url(../img/bloc2.gif) 0 0 no-repeat
+}
+
+.centre {
+    text-align: center;
+}
+
+article.phone {
+    width: 521px;
+    height: 367px;
+    float: left;
+    background: url(../img/com01.jpg) 0 0 no-repeat;
+    text-indent: -9999px;
+}
+
+p.zone {}
+
+p.contact {
+    margin-top: 50px;
+    padding-left: 37px;
+    height: 317px;
+    width: 428px;
+    float: left;
+}
+
+header.pop {
+    height: 58px;
+    position: relative;
+    top: 54px;
+    left: 325px;
+    z-index: 1;
+    background: white;
+    box-shadow: 2px 0px 60px #cfddea;
+    width: 391px;
+    line-height: 58px
+}
+
+h3.position2 {
+    position: absolute;
+    left: 30px;
+}
+
+footer {
+    background: white;
+    width: 100%;
+    height: 460px;
+    float: left;
+    /* margin-top: 467px; */
+}
+
+.ombre {
+    box-shadow: 2px 31px 24px #eef7fc
+}
+
+.bd {
+    background: url(../img/bord-droit.gif) 0 0 no-repeat;
+    margin-top: 139px;
+    width: 122px;
+    height: 367px;
+    float: left
+}
+
+section.nav {
+    width: 250px;
+    height: 222px;
+    position: fixed;
+    top: 10px;
+    right: 0;
+}
+
+div.menu {
+    width: 30px;
+    float: left;
+    margin-right: 20px
+}
+
+div.menu>p {
+    line-height: 2px;
+}
+
+div.reds {
+    background: crimson;
+    width: 2px;
+    height: 259px;
+    float: left;
+}
+
+ul {
+    list-style: none;
+    line-height: 60px;
+}
+
+nav {
+    width: auto;
+    float: left;
+}
+
+nav ul li {
+    display: block;
+    width: 168px;
+    text-align: center;
+    line-height: 21px;
+}
+
+nav ul li .item {
+    text-decoration: none;
+    color: black;
+    display: block
+}
+
+span.us {
+    color: crimson;
+}
+
+.anim {
+    animation: haut 1500ms ease-in 1 forwards;
+}
+
+@keyframes haut {
+    0% {
+        margin-top: -100%;
+        color: transparent
+    }
+    80% {
+        color: transparent
+    }
+    100% {
+        margin-top: 0%
+    }
+}
+
+.anim2 {
+    animation: opacite 2s ease-in 1 forwards;
+}
+
+@keyframes opacite {
+    0% {
+        filter: blur(20px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+/* Début du formulaire de contact */
+
+.form {
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: 499px;
+
+}
+
+textarea {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid crimson;
+    width: 350px;
+    height: auto;
+    background: transparent;
+    display: block;
+}
+
+input.block_user {
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    border: 1px solid crimson;
+    width: 250px;
+    height: 37px;
+    background-color:transparent;
+    display: block;
+}
+
+.slider {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    text-align: justify;
+}
+
+/* Fin du formulaire de Contact */
+
+/* API GOOGLE MAP */
+
+#map {
+    border: 1px solid crimson;
+    height: 391px;
+    width: 428px;
+
+    float: left;
+}
+
+/* Fin API GOOGLE MAP*/
+
+#particles {
+    align-items: center;
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+}
